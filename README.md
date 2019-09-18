@@ -11,3 +11,6 @@ This has:
 - `$ cd react-native-web-monorepo`
 - `$ yarn`
 - `$ yarn app:dev`
+
+
+Kudos: https://josephluck.co.uk/blog/next-typescript-monorepo
