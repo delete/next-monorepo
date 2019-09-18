@@ -1,0 +1,20 @@
+{
+    "name": "@app/core",
+    "version": "1.0.0",
+    "main": "index.js",
+    "files": [
+      "./src"
+    ],
+    "license": "MIT",
+    "scripts": {
+      "test": "jest",
+      "start": "ts-node ./src/index.ts"
+    },
+    "devDependencies": {
+      "@types/jest": "^23.3.12",
+      "jest": "^23.6.0",
+      "ts-jest": "^23.10.5",
+      "ts-node": "^7.0.1",
+      "typescript": "^3.2.2"
+    }
+  }

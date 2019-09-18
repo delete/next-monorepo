@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": " ",
+  "author": "fellipe",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "app:dev": "yarn workspace @app/app dev",
+    "core:test": "yarn workspace @app/core test",
+    "postinstall": "rexreplace \"followSymlinks: false\" \"followSymlinks: true\" ./node_modules/watchpack/lib/DirectoryWatcher.js -V"
+  },
+  "devDependencies": {
+    "rexreplace": "^4.1.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
